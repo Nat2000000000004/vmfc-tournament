@@ -1,3 +1,7 @@
+import logoImg from '../assets/images/vmfc_logo.png';
+import mainPosterImg from '../assets/images/poster.jpg';
+import rulesPosterImg from '../assets/images/rules_poster.jpg';
+
 export const TOURNAMENT_DATA = {
   clubName: "Virgin Mary Football Club",
   location: "Mallapur, Karnataka",
@@ -13,7 +17,7 @@ export const TOURNAMENT_DATA = {
   lotsDrawnDate: "November 12, 2026",
   timing: "10:00 AM to 11:00 PM",
   matchType: "Floodlit Day & Night Tournament",
-  logoPath: "/images/vmfc_logo.png",
+  logoPath: logoImg,
   venue: {
     name: "Virgin Mary Playground",
     location: "Mallapur, Karnataka",
@@ -250,7 +254,7 @@ export const TOURNAMENT_DATA = {
     { label: "COMMUNITY", desc: "Empowering youth football culture in Karnataka" }
   ],
   posters: {
-    mainPoster: "/images/poster.jpg",
-    rulesPoster: "/images/rules_poster.jpg"
+    mainPoster: mainPosterImg,
+    rulesPoster: rulesPosterImg
   }
 };
